@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}header{
+    
+}
+.big{
+    background-color: black;
+    color: #ffffff;
+    margin-bottom: 400px;
+    position: absolute;
+    padding: 30px 30px;
+    margin: 400px;
+    width: 1466px;
+    height: 890px;
+}
+.container{
+
+}
+nav{
+    margin-top: 100px;
+}
+.fashion{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+
+}
+.aolt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: #292C34; */
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+.aolt div img{
+    height: 100%;
+    margin-left: 100px;
+    width: 688px;
+    /* height: 632px; */
+    flex-shrink: 0;
+}
+.aolt div:nth-child(1){
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ffffff;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 0 10px 24px;
+    /* margin-bottom:; */
+}
+.means{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.means img{
+    color: #FFF;
+}
+.our{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 85px;
+}
+h1{
+    color: #FFF;
+    font-family: DM Serif Display;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px;
+
+}
+p{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 20px 0 ;
+}
+button{
+    display: inline-flex;
+    padding: 13px 24px;
+    align-items: flex-start;
+    gap: 10px;
+}
+.latest{
+    width: 585px;
+    height: 136px;
+    flex-shrink: 0;
+    text-align: center;
+    background: #FD5B00;
+    transform: translate(0px,-138px);
+}
+.latest h4{
+    color: #FFF;
+    padding-top: 20px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.belgi{
+    width: 87px;
+    text-align: center;
+    padding-top: 20px;
+    height: 136px;
+    flex-shrink: 0;
+    background: #131212;
+    color: #FFF;
+    font-size: 20px;
+    transform: translate(580px,-274px);
+}
+.belgi div{
+    margin-top: 20px;
+}
